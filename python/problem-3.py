@@ -8,7 +8,7 @@ What is left: To fully understand algorithm.
 Challenges: Try to write as one line
 '''
 
-N = 13195
+N = 600851475143
 p = 2
 while N >= p*p:
     if N%p == 0:

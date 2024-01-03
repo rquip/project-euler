@@ -8,6 +8,11 @@ Challenges:
 - What if the number is 1,000,000,000? You will need to modify your solution
 """
 
+# Solution 1
 multiples = (x for x in range(3, 1000) if x%3 == 0 or x%5 == 0)
-print("Solution: " + str(sum(multiples)))
+print("Solution 1: " + str(sum(multiples)))
 
+# Solution 2: Attempt to make one line
+print("Solution 2: " + str(sum(x for x in range(3, 1000) if x%3 == 0 or x%5 == 0)))
+
+# Solution 3: What if the number is 1,000,000,000?
